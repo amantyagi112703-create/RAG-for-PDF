@@ -1,2 +1,17 @@
 # RAG for PDF
-This is a simple RAG model that can be used for a pdf file
+
+This is a simple RAG model that can be used for a pdf or txt file
+
+## How to use it:
+
+Simply: 
+
+1. upload a pdf file to the folder
+
+2. Change the 'Trial_Document.pdf' section in seed.js
+
+3. run node seed.js in the terminal to break the file into chunks and upload the chunks into AstraDB
+
+4. run chat.js in the terminal to run the chatbot 
+
+5. type 'exit' when finished to stop the chat
